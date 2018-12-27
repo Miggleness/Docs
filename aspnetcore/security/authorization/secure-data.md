@@ -245,7 +245,7 @@ Update the delete page model to use the authorization handler to verify the user
 
 Currently, the UI shows edit and delete links for contacts the user can't modify.
 
-Inject the authorization service in the *Views/_ViewImports.cshtml* file so it's available to all views:
+Inject the authorization service in the *Pages/_ViewImports.cshtml* file so it's available to all views:
 
 [!code-cshtml[](secure-data/samples/final2.1/Pages/_ViewImports.cshtml?highlight=6-99)]
 
